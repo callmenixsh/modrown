@@ -40,7 +40,7 @@ function Modpack() {
         <input
           type="text"
           className="flex-1 bg-transparent border-b border-green-800 text-green-300 placeholder-green-800 outline-none px-1"
-          placeholder="https://modrinth.com/modpack/fabulously-optimized/version/14.0.0-beta.2"
+          placeholder="(e.g., `https://modrinth.com/modpack/fabulously-optimized/version/14.0.0-beta.2`)"
           value={modpackUrl}
           onChange={(e) => setModpackUrl(e.target.value)}
           disabled={running}

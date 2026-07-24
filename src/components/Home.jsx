@@ -14,15 +14,18 @@ function Home() {
       </pre>
 
       <div className="border border-green-900/60 p-3 text-xs space-y-1">
-        <div className="text-green-600">
-          <span className="text-green-400">user</span>@<span className="text-green-400">modrinth</span>:~$ whoami
-        </div>
+
         <div className="text-green-300 pl-0">
           modrown — a bulk downloader for Modrinth mods, packs, and modpacks
         </div>
-        <div className="text-green-700 pt-1">
-          real API calls, real files, zero mockups
-        </div>
+                  <a
+            href="https://github.com/callmenixsh/modrown"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-300 underline decoration-green-800 hover:text-green-200"
+          >
+            ./callmenixsh/modrown
+          </a>
       </div>
 
       <div className="flex gap-2">
@@ -34,23 +37,24 @@ function Home() {
           collections or modpack tab above → fill in the fields → run
         </li>
         <li className="pl-3 border-l border-green-900">
-          need details on inputs and output structure? see the help tab
+          need details on inputs and output structure? see the info tab
         </li>
       </ul>
 
       <div className="pt-2 border-t border-green-900/60 text-xs text-green-700 flex items-center gap-2">
         <span className="text-green-400">$</span>
+                <div className="text-green-600">
+          <span className="text-green-400">user</span>@<span className="text-green-400">callmenixsh</span>:~$ 
+        </div>
         <span>
-          built by{' '}
           <a
             href="https://github.com/callmenixsh"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-300 underline decoration-green-800 hover:text-green-200"
           >
-            @callmenixsh
-          </a>{' '}
-          on github
+            whoami
+          </a>
         </span>
       </div>
     </div>
