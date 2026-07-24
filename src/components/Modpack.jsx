@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import JSZip from 'jszip'
-import { runModpackDownload } from '../lib/modrinth'
+import { runModpackDownload } from '../lib/Modrinth.jsx'
 
 function Modpack() {
   const [modpackUrl, setModpackUrl] = useState('')

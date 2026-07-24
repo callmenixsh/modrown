@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Home from './components/Home'
-import Modpack from './components/Modpack'
-import Collection from './components/Collection'
-import Info from './components/Info'
+import Home from './components/Home.jsx'
+import Modpack from './components/Modpack.jsx'
+import Collection from './components/Collection.jsx'
+import Info from './components/Info.jsx'
 
 function App() {
   const [count, setCount] = useState(0)

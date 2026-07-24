@@ -1,6 +1,6 @@
 import { useState } from "react";
 import JSZip from "jszip";
-import { runCollectionDownload, LOADER_OPTIONS } from "../lib/modrinth";
+import { runCollectionDownload, LOADER_OPTIONS } from "../lib/Modrinth.jsx";
 
 function Collection() {
   const [collectionInput, setCollectionInput] = useState("");
